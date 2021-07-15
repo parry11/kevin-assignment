@@ -1,0 +1,39 @@
+Section 1 - (5 mins)
+1) Explain the difference between an abstract class and an interface.
+Answer: Abstract class doesn't support multiple inheritance, Interface supports multiple inheritance.
+An abstract class can be extended using keyword "extends", but an interface can be implemented using keyword "implements"
+
+2) What is the purpose of getters and setters in a class?
+Answer: Getters used to get the value and setters to set or update the value of variables. If we use getters and setters, we can control the value of variable.
+
+Section 2 - Testing - (5 mins)
+3) Explain the purpose of black box testing
+Answer: With balck box testing, we basically test our system functionalities that everything is working fine or not without knowing the internal structure of application.
+
+4) In your opinion what are the benefits of test cases
+Answer: With the help of test cases, we can define the each scenario of our system and then test our system as per test cases defined.
+
+Section 3 - NodeJS specific questions - (5 mins)
+5) What is an error first callback, and what is the reason for this pattern existing?
+Answer: Its a function that return error or success. The first argument in this function is for the error object. If any error occurred while executing the function, then we will get error in the first argument. Second argument is for the successful data. If their is no error then error object will be null.
+Without this convention, developers would have to maintain different signatures and APIs, without knowing where to place the error in the arguments array.
+
+6) Explain the difference between fs.readSync and fs.read (File System module in Nodejs)
+Answer: fs.readFileSync is single thread loop that didn't send the callback but fs.read system send callback
+
+7) What tasks do you feel should be done asynchronously?
+Answer: When we are using some nested update/creation after main module then we can do asynchronously. Like service to send multi  users message etc.
+
+Section 4 - NodeJS coding - (15 - 20 mins)
+8) 	(a) is a trivial example of callback hell
+Refactor the code for the better, using any techniques you are aware of
+Place code in load_contents.js
+Take path as an argument
+Answer: Refer the file load_contents.js
+
+Section 5 - NodeJS coding with classes - Fruit Basket - (40 - 50 mins)
+Answer: Refrer file fruits.js and inout.json
+
+
+
+

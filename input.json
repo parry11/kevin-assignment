@@ -1,0 +1,19 @@
+[
+    {
+        "class": "FruitBasket",
+        "contents ": [
+            {
+                "type": "apple",
+                "weight": 1.5
+            },
+            {
+                "type": "apple",
+                "weight": 2
+            },
+            {
+                "type": "peer",
+                "weight": 2.5
+            }
+        ]
+    }
+]
